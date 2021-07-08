@@ -11,6 +11,9 @@ namespace HelloVSSourceControl
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the store!");
+
+            Console.WriteLine("Press any key to end");
+            Console.ReadKey();
         }
     }
 }
